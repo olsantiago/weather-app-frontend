@@ -1,7 +1,7 @@
 # Weather app frontend
 
 This is the home for the weather app client side
-
+run backend server https://github.com/olsantiago/weather-app
 ## Yarn Workspaces
 
 The top level `package.json` is a simple file primarily telling `yarn` to run the project
