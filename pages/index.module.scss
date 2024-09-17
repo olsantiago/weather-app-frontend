@@ -1,0 +1,13 @@
+.row {
+  background-color: #F2F2F2;
+  min-height: 100vh;
+  position: relative;
+
+  .searchContainer {
+    position: absolute;
+    top: 24px;
+    left: 2.5%;
+    width: 95%;
+    z-index: 1;
+  }
+}
