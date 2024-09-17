@@ -25,3 +25,9 @@ yarn build
 ```sh
 yarn lint
 ```
+### Notes
+---------------
+- any location that is available from [openweather](https://openweathermap.org/) will work
+- US locations are the only auto suggested
+- Current location will only work if location is allowed in browser
+

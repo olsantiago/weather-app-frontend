@@ -1,3 +1,5 @@
+'use client';
+
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
@@ -27,6 +29,7 @@ function AutoCompleteInput() {
     navigator.geolocation.watchPosition( async (position) => {
       const lat = position?.coords?.latitude;
       const lon = position?.coords?.longitude;
+
       if(!lat && !lon) {
         return
       }
@@ -107,8 +110,6 @@ function AutoCompleteInput() {
       setRecentSearch(history);
     }
   }, []);
-
-
 
   return (
     <>
